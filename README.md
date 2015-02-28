@@ -1,5 +1,5 @@
-PyBossa photo masking application for the Oxborough Dirk
-========================================================
+PyBossa photo masking application for a lunula
+==============================================
 
 This application has three files:
 
