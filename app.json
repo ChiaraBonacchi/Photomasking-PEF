@@ -1,7 +1,7 @@
 {
-    "name": "Photo Masking a Gold Lunula",
-    "short_name": "photomaskingLunula",
-    "thumbnail": "http://micropasts.org/wp-content/uploads/2015/02/Lunula_Thumbnail.jpg",
-    "description": "Photo Masking a Gold Lunula",
-    "question": "Draw the outline/holes of the lunula fragment in the picture"
+    "name": "Photo Masking PEF Objects",
+    "short_name": "photomaskingPEF",
+    "thumbnail": "http://micropasts.org/wp-content/uploads/2015/03/PEF_Thumbnail.png",
+    "description": "Photo Masking PEF objects",
+    "question": "Draw the outline/holes of the object you see in the picture"
 }

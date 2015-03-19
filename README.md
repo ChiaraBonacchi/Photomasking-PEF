@@ -1,5 +1,5 @@
-PyBossa photo masking application for a gold lunula
-===================================================
+PyBossa photo masking application for PEF objects
+=================================================
 
 This application has three files:
 
