@@ -179,7 +179,7 @@ a.ol-full-screen-true:after {
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Skip</button>
-        <a class="btn btn-large btn-success" href="https://docs.google.com/forms/d/1Kgw8cvcufm-77PC2t_PL_b4y1_Tb9wJseimmb3cQIn4/viewform?embedded=true">Of course! Take me to the survey!</a>
+        <a class="btn btn-large btn-success" href="https://docs.google.com/forms/d/1ENa3xBllMaO5wmHDbPSkbyBdfXtxXdi-Y0KxO4t_s-8/viewform?embedded=true">Of course! Take me to the survey!</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -197,7 +197,7 @@ a.ol-full-screen-true:after {
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Skip</button>
-        <a class="btn btn-large btn-success" href="https://docs.google.com/forms/d/1uczUGGYbrQ2FQfTtM8j4vfGr2qwcCMW6PLwzfvZZ6kI/viewform?embedded=true">Of course! Take me to the survey!</a>
+        <a class="btn btn-large btn-success" href="https://docs.google.com/forms/d/1XQrw1TxuNvENNo-8c5jepJwG0-LTc1-Xf-Ilm7JkZQ0/viewform?embedded=true">Of course! Take me to the survey!</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -295,13 +295,13 @@ function loadUserProgress() {
     	
     	console.log('Tasks done so far: ' + data.done);
     	
-        if ((data.done == 1) && ($.cookie('surveyPhotoMask') === undefined)){
+        if ((data.done == 1) && ($.cookie('surveyPEF') === undefined)){
            $("#survey").modal('show');
-           $.cookie('surveyPhotoMask', 'shown', { path: '/'});
+           $.cookie('surveyPEF', 'shown', { path: '/'});
         }
-        if ((data.done == 25) && ($.cookie('survey25PhotoMask') === undefined)){
+        if ((data.done == 25) && ($.cookie('survey25PEF') === undefined)){
            $("#survey25").modal('show');
-           $.cookie('survey25PhotoMask', 'shown', { path: '/'});
+           $.cookie('survey25PEF', 'shown', { path: '/'});
         }
         var pct = Math.round((data.done*100)/data.total);
         $("#progress").css("width", pct.toString() +"%");
